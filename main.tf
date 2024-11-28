@@ -1,7 +1,7 @@
 module "launch_template" {
   source            = "./modules/launch_template"
   name_prefix       = "example-lt"
-  ami_id            = "ami-00eb69d236edcfaf8" # Replace with your AMI ID
+  ami_id            = "ami-00eb69d236edcfaf8" # Replace with your AMI IDs
   instance_type     = "t2.micro"
   key_pair          = "tf-test"
   security_groups   = ["sg-01198e4d5333ac9b4"] # Replace with your Security Group ID
